@@ -1,0 +1,28 @@
+#body {
+	padding: 20px 5%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+			justify-content: center; -ms-flex-line-pack: center; align-content: center;
+	background: rgb(179, 221, 200) url('bg_works.jpg') center top/cover fixed no-repeat;
+}
+
+#desc2 {
+	margin: 0;
+}
+
+@media only screen and (min-width: 571px) {
+	#body {padding: 20px 10%;}
+}
+
+@media only screen and (min-width: 891px) {
+	#body {padding: 20px 5%;}
+}
+
+@media only screen and (min-width: 1201px) {
+	#body {padding: 20px 10%;}
+}
